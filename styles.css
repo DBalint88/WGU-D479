@@ -76,6 +76,12 @@ main {
  
 }
 
+main p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
 .tile-menu {
     display: flex;
     flex-direction: row;
@@ -85,7 +91,6 @@ main {
 }
 
 .menu-tile {
-    background-color: darkgreen;
     color: white;
     width: 48%;
     aspect-ratio: 3 / 2;
@@ -95,6 +100,14 @@ main {
     justify-content: end;
     padding-left: 2rem;
     font-size: 1.5rem;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+
+.menu-tile:hover {
+    border: 1px solid black;
+    opacity: 90%;
+    transform: scale(95%)
 }
 
 .menu-tile h2 {
