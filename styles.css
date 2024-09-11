@@ -11,7 +11,8 @@ body {
 
 .content-wrapper {
     min-height: 100vh;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     display: grid;
     grid-template-rows: 3rem 17rem 1fr 12rem;
 }
@@ -19,14 +20,34 @@ body {
 nav {
     background-color: black;
     color: white;
+    height: 3rem;
 }
 
 nav ul {
+    margin: 0;
+    height: 3rem;
     padding: 0 6rem 0 6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+}
+
+nav ul li {
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
 }
 
 header {
@@ -43,11 +64,66 @@ header h1 {
     font-size: 8rem;
     letter-spacing: 1rem;
     color: darkorange;
+    text-shadow: 6px 6px 6px black;
 }
 
+
+
+
 main {
- background-color: white;   
+ background-color: white; 
+ padding: 0 2rem 0 2rem;
+ 
 }
+
+.tile-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.menu-tile {
+    background-color: darkgreen;
+    color: white;
+    width: 48%;
+    aspect-ratio: 3 / 2;
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.menu-tile h2 {
+    margin: 0 0 1rem 0;
+    letter-spacing: .2rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+#dining-tile {
+    background-image: url(images/dining-01.jpg);
+    background-position: center;
+}
+
+#entertainment-tile {
+    background-image: url(images/entertainment-01.jpg);
+    background-position: center;
+}
+
+#transport-tile {
+    background-image: url(images/transport-01.jpg);
+    background-position: center;
+}
+
+#lodging-tile {
+    background-image: url(images/lodging-01.jpg);
+    background-position: center;
+}
+
+
 
 footer {
     background-color: black;
