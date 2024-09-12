@@ -35,9 +35,9 @@ nav ul {
 
 nav ul li {
     height: 100%;
-    
     display: flex;
     align-items: center;
+    transition-duration: 100ms;
 }
 
 nav ul li:hover {
@@ -117,12 +117,13 @@ main p {
     padding-left: 2rem;
     font-size: 1.5rem;
     text-decoration: none;
-    transition-duration: 500ms;
+    transition-duration: 100ms;
     border-radius: 4px;
+    border: 1px solid black;
 }
 
 .menu-tile:hover {
-    border: 1px solid black;
+    border: 3px solid black;
     opacity: 90%;
     transform: scale(97%)
 }
