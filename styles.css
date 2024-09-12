@@ -6,7 +6,7 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
+    background-color: white;
 }
 
 .content-wrapper {
@@ -38,6 +38,15 @@ nav ul li {
     
     display: flex;
     align-items: center;
+}
+
+nav ul li:hover {
+    transform: scale(105%);
+    background-color: rgb(53, 53, 53);
+}
+
+nav ul li:active {
+    background-color: black;
 }
 
 nav ul li a {
@@ -73,13 +82,15 @@ header h1 {
 main {
  background-color: white; 
  padding: 0 2rem 0 2rem;
- 
+ background-color: rgb(53, 53, 53);
+    color: white;
 }
 
 main p {
     text-align: center;
     font-size: 1.2rem;
     line-height: 2rem;
+    
 }
 
 .tile-menu {
@@ -102,12 +113,13 @@ main p {
     font-size: 1.5rem;
     text-decoration: none;
     transition-duration: 500ms;
+    border-radius: 4px;
 }
 
 .menu-tile:hover {
     border: 1px solid black;
     opacity: 90%;
-    transform: scale(95%)
+    transform: scale(97%)
 }
 
 .menu-tile h2 {
