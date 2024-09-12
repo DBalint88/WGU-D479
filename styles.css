@@ -157,7 +157,32 @@ main p {
 
 
 footer {
+    padding-top: 1rem;
     background-color: black;
     color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-nav {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials img {
+    width: 30px;
+    height: auto;
 }
