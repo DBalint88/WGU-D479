@@ -213,3 +213,27 @@ footer p {
     background-image: url(images/super-market.jpg);
     background-position: center;
 }
+
+/* Lodging Page */
+
+#hostel-tile {
+    background-image: url(images/hostel.jpg);
+    background-position: center;
+}
+
+#bnb-tile {
+    background-image: url(images/bnb.jpg);
+    background-position: center;
+}
+
+#motel-tile {
+    background-image: url(images/motel.jpg);
+    background-position: center;
+}
+
+#hotel-tile {
+    background-image: url(images/hotel.jpg);
+    background-position: center;
+}
+
+
