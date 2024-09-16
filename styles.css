@@ -237,3 +237,24 @@ footer p {
 }
 
 
+/* Entertainment Page */
+
+#museum-tile {
+    background-image: url(images/museum.jpg);
+    background-position: center;
+}
+
+#aquatics-tile {
+    background-image: url(images/snorkeling.jpg);
+    background-position: center;
+}
+
+#dance-club-tile {
+    background-image: url(images/dance-club.jpg);
+    background-position: center;
+}
+
+#brewery-tile {
+    background-image: url(images/brewery.jpg);
+    background-position: center;
+}
