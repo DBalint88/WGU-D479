@@ -163,6 +163,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 footer p {
@@ -175,14 +176,40 @@ footer p {
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
+    margin: 0;
 }
 
 .footer-nav li a {
-    text-decoration: none;
     color: white;
 }
+
 
 .socials img {
     width: 30px;
     height: auto;
+    margin: 0 .3rem 0 .3rem;
+}
+
+
+
+/* Dining Page */
+
+#sushi-tile {
+    background-image: url(images/sushi.jpg);
+    background-position: center;
+}
+
+#pan-asian-tile {
+    background-image: url(images/stir-fry.jpg);
+    background-position: center;
+}
+
+#american-tile {
+    background-image: url(images/burger.jpg);
+    background-position: center;
+}
+
+#grocery-tile {
+    background-image: url(images/super-market.jpg);
+    background-position: center;
 }
