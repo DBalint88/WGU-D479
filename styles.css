@@ -282,3 +282,21 @@ footer p {
     background-image: url(images/transport-01.jpg);
     background-position: center;
 }
+
+/* FAQ Page  */
+
+details {
+    margin: 2rem 0 2rem 0;
+}
+
+summary {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+details p {
+    margin: .5rem 0 .5rem 2rem;
+    text-align: left;
+    font-size: 1rem;
+}
