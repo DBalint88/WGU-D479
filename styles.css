@@ -258,3 +258,27 @@ footer p {
     background-image: url(images/brewery.jpg);
     background-position: center;
 }
+
+
+
+/* Transport Page */
+
+#bikes-tile {
+    background-image: url(images/bikes.jpg);
+    background-position: center;
+}
+
+#buses-tile {
+    background-image: url(images/bus.jpg);
+    background-position: center;
+}
+
+#rental-cars-tile {
+    background-image: url(images/cars.jpg);
+    background-position: center;
+}
+
+#planes-tile {
+    background-image: url(images/transport-01.jpg);
+    background-position: center;
+}
