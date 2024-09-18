@@ -65,7 +65,7 @@ background: linear-gradient(322deg, rgba(219,110,26,1) 35%, rgba(212,42,0,1) 100
 }
 
 header {
-    background-image: URL(images/island-01.jpg);
+    background-image: url(images/island-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
