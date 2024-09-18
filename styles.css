@@ -300,3 +300,21 @@ details p {
     text-align: left;
     font-size: 1rem;
 }
+
+#book-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+label {
+    margin: .5rem 0 .5rem 0;
+}
